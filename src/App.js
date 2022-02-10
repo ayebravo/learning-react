@@ -6,10 +6,9 @@ const App = () => {
 	return (
 		// <></> React fragment -> To serve a single parent element that doesn't render anything
 		<>
-			<h1>Hello</h1>
-			<h1>React!</h1>
-			<Greeting />
-			<Greeting />
+			<h1>Hello React!</h1>
+			<Greeting name="Larry" />
+			<Greeting name="Sam" />
 		</>
 	);
 };
