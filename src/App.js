@@ -11,7 +11,7 @@ const App = () => {
 			<Greeting
 				name="Larry"
 				favoriteNumber={1}
-				favoriteColors={["Red", "Green", "Blue"]}
+				favoriteColors={["Red", "Green", "Blue", "Red"]}
 			/>
 			<Greeting name="Sam" favoriteNumber={42} />
 		</>
