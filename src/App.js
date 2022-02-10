@@ -7,8 +7,9 @@ const App = () => {
 		// <></> React fragment -> To serve a single parent element that doesn't render anything
 		<>
 			<h1>Hello React!</h1>
-			<Greeting name="Larry" />
-			<Greeting name="Sam" />
+			<hr></hr>
+			<Greeting name="Larry" favoriteNumber={1} />
+			<Greeting name="Sam" favoriteNumber={42} />
 		</>
 	);
 };
