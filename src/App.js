@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Greeting from "./Greeting";
 
@@ -8,7 +8,11 @@ const App = () => {
 		<>
 			<h1>Hello React!</h1>
 			<hr></hr>
-			<Greeting name="Larry" favoriteNumber={1} />
+			<Greeting
+				name="Larry"
+				favoriteNumber={1}
+				favoriteColors={["Red", "Green", "Blue"]}
+			/>
 			<Greeting name="Sam" favoriteNumber={42} />
 		</>
 	);
