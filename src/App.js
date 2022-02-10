@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Greeting from "./Greeting";
 
 const App = () => {
 	return (
@@ -7,6 +8,8 @@ const App = () => {
 		<>
 			<h1>Hello</h1>
 			<h1>React!</h1>
+			<Greeting />
+			<Greeting />
 		</>
 	);
 };
